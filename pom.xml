@@ -21,8 +21,6 @@
 		<module>x_zodo_attendance_control</module>
 		<module>x_zodo_mes_control</module>
 		<module>x_zodo_mes_entity</module>
-		<module>x_zodo_u9c_entity</module>
-		<module>x_zodo_u9c_control</module>
 	</modules>
 	<dependencies>
 		<dependency>
