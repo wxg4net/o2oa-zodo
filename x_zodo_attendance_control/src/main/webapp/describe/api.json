@@ -1,0 +1,142 @@
+{
+  "jaxrs": [
+    {
+      "name": "CacheAction",
+      "methods": [
+        {
+          "name": "detail",
+          "uri": "jaxrs/cache/detail",
+          "method": "GET"
+        },
+        {
+          "name": "configFlush",
+          "uri": "jaxrs/cache/config/flush",
+          "method": "GET"
+        },
+        {
+          "name": "commonScriptFlush",
+          "uri": "jaxrs/cache/commonscript/flush",
+          "method": "GET"
+        },
+        {
+          "name": "receive",
+          "uri": "jaxrs/cache",
+          "method": "POST",
+          "enctype": "application/json"
+        }
+      ]
+    },
+    {
+      "name": "DeviceV1Action",
+      "methods": [
+        {
+          "name": "updateDeviceTime",
+          "uri": "jaxrs/attendance/device/v1/{ip}/time/{time}",
+          "method": "GET"
+        },
+        {
+          "name": "setDeviceCommunicationPassword",
+          "uri": "jaxrs/attendance/device/v1/{ip}/communication/{password}",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "DeviceV2Action",
+      "methods": [
+        {
+          "name": "getList",
+          "uri": "jaxrs/attendance/device/v2/list",
+          "method": "GET"
+        },
+        {
+          "name": "getListOnline",
+          "uri": "jaxrs/attendance/device/v2/list/online",
+          "method": "GET"
+        },
+        {
+          "name": "setDeviceTime",
+          "uri": "jaxrs/attendance/device/v2/{ip}/time/{time}",
+          "method": "GET"
+        },
+        {
+          "name": "setDoorStatus",
+          "uri": "jaxrs/attendance/device/v2/door/{host}/status/{status}",
+          "method": "GET"
+        },
+        {
+          "name": "getDeviceSetting",
+          "uri": "jaxrs/attendance/device/v2/setting/{host}",
+          "method": "GET"
+        },
+        {
+          "name": "getDeviceInfo",
+          "uri": "jaxrs/attendance/device/v2/info/{host}",
+          "method": "GET"
+        },
+        {
+          "name": "setDeviceCommunicationPassword",
+          "uri": "jaxrs/attendance/device/v2/communication/{ip}/password/{password}",
+          "method": "GET"
+        },
+        {
+          "name": "openDoor",
+          "uri": "jaxrs/attendance/device/v2/openDoor/{host}",
+          "method": "GET"
+        },
+        {
+          "name": "getManager",
+          "uri": "jaxrs/attendance/device/v2/manager/{host}",
+          "method": "GET"
+        },
+        {
+          "name": "syncTime",
+          "uri": "jaxrs/attendance/device/v2/syncTime/{host}",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "EchoAction",
+      "methods": [
+        {
+          "name": "get",
+          "uri": "jaxrs/echo",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "FireScheduleAction",
+      "methods": [
+        {
+          "name": "execute",
+          "uri": "jaxrs/fireschedule/classname/{className}",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "RecordV2Action",
+      "methods": [
+        {
+          "name": "queryList",
+          "uri": "jaxrs/record/v2/list",
+          "method": "POST",
+          "enctype": "application/json"
+        }
+      ]
+    },
+    {
+      "name": "UserV2Action",
+      "methods": [
+        {
+          "name": "queryList",
+          "uri": "jaxrs/user/v2/info",
+          "method": "POST",
+          "enctype": "application/json"
+        }
+      ]
+    }
+  ]
+}

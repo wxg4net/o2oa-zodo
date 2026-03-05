@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for o2oa_plugin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/mybatis-flex/mybatis-flex-processor/1.11.5/mybatis-flex-processor-1.11.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/mybatis-flex/mybatis-flex-annotation/1.11.5/mybatis-flex-annotation-1.11.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.19/mybatis-3.5.19.jar" />
+        </processorPath>
+        <module name="x_zodo_attendance_entity" />
+        <module name="x_zodo_gateway_control" />
+        <module name="x_zodo_gateway_entity" />
+        <module name="x_zodo_attendance_control" />
+        <module name="x_zodo_mes_entity" />
+        <module name="x_zodo_mes_control" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

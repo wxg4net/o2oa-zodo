@@ -1,0 +1,133 @@
+{
+  "jaxrs": [
+    {
+      "name": "CacheAction",
+      "methods": [
+        {
+          "name": "commonScriptFlush",
+          "uri": "jaxrs/cache/commonscript/flush",
+          "method": "GET"
+        },
+        {
+          "name": "configFlush",
+          "uri": "jaxrs/cache/config/flush",
+          "method": "GET"
+        },
+        {
+          "name": "detail",
+          "uri": "jaxrs/cache/detail",
+          "method": "GET"
+        },
+        {
+          "name": "receive",
+          "uri": "jaxrs/cache",
+          "method": "POST",
+          "enctype": "application/json"
+        }
+      ]
+    },
+    {
+      "name": "EchoAction",
+      "methods": [
+        {
+          "name": "get",
+          "uri": "jaxrs/echo",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "FileAction",
+      "methods": [
+        {
+          "name": "uploadFile",
+          "uri": "jaxrs/file/upload",
+          "method": "POST",
+          "enctype": "application/json"
+        }
+      ]
+    },
+    {
+      "name": "FireScheduleAction",
+      "methods": [
+        {
+          "name": "execute",
+          "uri": "jaxrs/fireschedule/classname/{className}",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "GuardAction",
+      "methods": [
+        {
+          "name": "updateDeviceInfo",
+          "uri": "jaxrs/guard/{version}/device/{ip}/time/{time}",
+          "method": "GET"
+        },
+        {
+          "name": "updateDeviceDoorAction",
+          "uri": "jaxrs/guard/{version}/device/{ip}/action/{action}",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "HrAction",
+      "methods": [
+        {
+          "name": "createKmSalaryProcessConfirm",
+          "uri": "jaxrs/hr/km/salary/process/confirm",
+          "method": "POST",
+          "enctype": "application/json"
+        }
+      ]
+    },
+    {
+      "name": "PassportAction",
+      "methods": [
+        {
+          "name": "save",
+          "uri": "jaxrs/pass",
+          "method": "POST",
+          "enctype": "application/json"
+        },
+        {
+          "name": "genQrCodeFromData",
+          "uri": "jaxrs/pass/qrcode/width/{width}/height/{height}/data/{data}",
+          "method": "GET"
+        },
+        {
+          "name": "getPageList",
+          "uri": "jaxrs/pass/page/{page}/size/{size}",
+          "method": "GET"
+        },
+        {
+          "name": "getPass",
+          "uri": "jaxrs/pass/job/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "genQrCode",
+          "uri": "jaxrs/pass/qrcode/width/{width}/height/{height}",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "UnitAction",
+      "methods": [
+        {
+          "name": "getListSubDirect",
+          "uri": "jaxrs/unit/list/{name}/sub/direct",
+          "method": "GET"
+        },
+        {
+          "name": "getList",
+          "uri": "jaxrs/unit/top",
+          "method": "GET"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+db.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+db.url=jdbc:sqlserver://172.16.2.10:1433;databaseName=WMS;encrypt=false
+db.username=sa
+db.password=password
+
+db.pool.maximumPoolSize=10
+db.pool.minimumIdle=2

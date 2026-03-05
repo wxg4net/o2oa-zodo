@@ -1,0 +1,7 @@
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://192.168.1.110:3377/center?useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+db.username=root
+db.password=root
+
+db.pool.maximumPoolSize=10
+db.pool.minimumIdle=2

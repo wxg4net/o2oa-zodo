@@ -1,0 +1,60 @@
+{
+  "jaxrs": [
+    {
+      "name": "CacheAction",
+      "methods": [
+        {
+          "name": "detail",
+          "uri": "jaxrs/cache/detail",
+          "method": "GET"
+        },
+        {
+          "name": "commonScriptFlush",
+          "uri": "jaxrs/cache/commonscript/flush",
+          "method": "GET"
+        },
+        {
+          "name": "configFlush",
+          "uri": "jaxrs/cache/config/flush",
+          "method": "GET"
+        },
+        {
+          "name": "receive",
+          "uri": "jaxrs/cache",
+          "method": "POST",
+          "enctype": "application/json"
+        }
+      ]
+    },
+    {
+      "name": "DeviceAction",
+      "methods": [
+        {
+          "name": "getPda",
+          "uri": "jaxrs/device/pda/flag/{flag}",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "EchoAction",
+      "methods": [
+        {
+          "name": "get",
+          "uri": "jaxrs/echo",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "FireScheduleAction",
+      "methods": [
+        {
+          "name": "execute",
+          "uri": "jaxrs/fireschedule/classname/{className}",
+          "method": "GET"
+        }
+      ]
+    }
+  ]
+}

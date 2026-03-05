@@ -1,0 +1,21 @@
+{
+  "name": "UnitAction",
+  "className": "com.x.zodo.gateway.control.jaxrs.unit.UnitAction",
+  "description": "正道组织列表接口",
+  "methods": [
+    {
+      "name": "getList",
+      "className": "com.x.zodo.gateway.control.jaxrs.unit.UnitAction",
+      "description": "获取顶级组织",
+      "type": "GET",
+      "outs": []
+    },
+    {
+      "name": "getListSubDirect",
+      "className": "com.x.zodo.gateway.control.jaxrs.unit.UnitAction",
+      "description": "获取顶级或者指定组织的下级组织",
+      "type": "GET",
+      "outs": []
+    }
+  ]
+}
